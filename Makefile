@@ -9,7 +9,7 @@ SRC =	$(wildcard src/*.cpp)		\
 		$(wildcard src/*/*.cpp)		\
 		$(wildcard src/*/*/*.cpp)		\
 
-NAME = 3D
+NAME = 3D_Engine
 
 CC = g++
 
