@@ -18,7 +18,7 @@ class TexturedModel {
         ~TexturedModel();
 
         RawModel getModel() const;
-        sf::Texture *getTexturePointer();
+        sf::Texture *getTexture();
         float getShineDamper() const;
         float getReflectivity() const;
         void setShineDamper(float shineDamper);

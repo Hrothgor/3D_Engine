@@ -47,7 +47,7 @@ void Renderer::prepareTextureModel(TexturedModel texturedModel)
     glEnableVertexAttribArray(1);
     glEnableVertexAttribArray(2);
     glActiveTexture(GL_TEXTURE0);
-    sf::Texture::bind(texturedModel.getTexturePointer());
+    sf::Texture::bind(texturedModel.getTexture());
     _shader.loadShineVariable(texturedModel.getShineDamper(), texturedModel.getReflectivity());
 }
 

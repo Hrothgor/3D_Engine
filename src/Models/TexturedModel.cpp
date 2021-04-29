@@ -24,7 +24,7 @@ RawModel TexturedModel::getModel() const
     return (_rawModel);
 }
 
-sf::Texture *TexturedModel::getTexturePointer()
+sf::Texture *TexturedModel::getTexture()
 {
     return (_texture);
 }
